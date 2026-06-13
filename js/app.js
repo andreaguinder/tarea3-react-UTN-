@@ -70,11 +70,30 @@ async function ejecutarPrograma() {
     gestor.agregarTareas("Ir al super");
     gestor.listarTareas();
 
-    console.log("\n--- Tareas Completadas ---");
+    console.log("\n--- Buscar por título ---");
+    console.log("Buscando 'Almorzar'...");
+    const busqueda1 = gestor.buscarPorTitulo("Almorzar");
+
+    if (busqueda1) {
+        console.log("Tarea encontrada:", busqueda1);
+    } else {
+        console.log("Resultado: No se encontró la tarea.");
+    }
+
+    console.log("\nBuscando 'tender la cama'...");
+    const busqueda2 = gestor.buscarPorTitulo("tender la cama");
+
+    if (busqueda2) {
+        console.log("Tarea encontrada:", busqueda2);
+    } else {
+        console.log("Resultado: No se encontró la tarea.");
+    }
+
+    console.log("\n--- Lista completadas ---");
     const completadas = gestor.listarCompletadas();
     completadas.forEach(tarea => console.log(tarea));
 
-//4
+    //4
     console.log("\n--- Extra: Solo los títulos ---");
     const nuevoArrayDeTareas = gestor.arrayDeTareas.map(tarea => tarea.titulo);
     console.log(nuevoArrayDeTareas);

@@ -1,4 +1,4 @@
-# Curso de Desarrollo en React JS - Andrea Belén Guinder Vichich - Módulo 1 - Unidad 2 - Tarea N2
+# Curso de Desarrollo en React JS - Andrea Belén Guinder Vichich - Módulo 1 - Unidad 3 - Tarea N3
 
 ## ℹ️ Información sobre el proyecto
 
@@ -21,14 +21,14 @@ Para clonar este proyecto y visualizarlo de forma local en tu navegador, seguí 
 Abrí tu terminal o consola de comandos, posicionate en la carpeta donde quieras guardar el proyecto y ejecutá el siguiente comando (reemplazando por la URL que copiaste):
 
 ### 3. En la Terminal del Editor de código
-git clone [https://github.com/andreaguinder/tarea2-react-UTN.git](https://github.com/andreaguinder/tarea2-react-UTN.git)
+git clone [https://github.com/andreaguinder/tarea3-react-UTN-.git](https://github.com/andreaguinder/tarea3-react-UTN-.git)
 
 ### 4. En el Editor de código
 Una vez que tenés el proyecto en tu editor, con la extensión Live Server desde el HTML lo abrís en el navegador y luego con F12 abrís la consola para inspeccionar. En "console" aparecerá toda la ejecución del programa.
 
-## 📸 Captura de pantalla de la página final
+## 📸 Captura de pantalla
 
-* Dentro de la carpeta images adjunto capturas de la consola.
+* Dentro de la carpeta images adjunto captura de la consola.
 
 
 ## 🔗 [Portfolio Andrea Guinder](https://andreaguinder.com/)
